@@ -1,9 +1,8 @@
 # A weather forecast on terminal
 
 ### A fun mini project for python beginners:
-File I/O
-Using API
-if\elif\else statements
+####Learn: 
+File I/O, use API, if\elif\else logic
 
 #### Included ASCII arts of weather icon
 
