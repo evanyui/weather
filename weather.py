@@ -1,18 +1,18 @@
 import json, urllib.request 
 
-f = open('clear.txt','r')
+f = open('./Desktop/weather/clear.txt','r')
 clear = f.read()
 f.close()
-f = open('clouds.txt','r')
+f = open('./Desktop/weather/clouds.txt','r')
 clouds = f.read()
 f.close()
-f = open('drizzle.txt','r')
+f = open('./Desktop/weather/drizzle.txt','r')
 drizzle = f.read()
 f.close()
-f = open('rain.txt','r')
+f = open('./Desktop/weather/rain.txt','r')
 rain = f.read()
 f.close()
-f = open('default.txt','r')
+f = open('./Desktop/weather/default.txt','r')
 default = f.read()
 f.close()
 
