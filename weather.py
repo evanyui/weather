@@ -35,4 +35,4 @@ else:
     print('\033[1;34;49m\n' + default)
 
 print('\033[1;32;49m\t\t' + str(int(data['main']['temp'])) + '°C', '|', str(data['weather'][0]['description']))
-print('\t  min:', str(data['main']['temp_min']) + '°C', '| max:', str(data['main']['temp_max']) + '°C\n')
+print('\t   min:', str(data['main']['temp_min']) + '°C', '| max:', str(data['main']['temp_max']) + '°C\n')
