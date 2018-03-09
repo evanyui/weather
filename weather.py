@@ -1,18 +1,18 @@
-import json, urllib.request 
+import os, json, urllib.request 
 
-f = open('./Desktop/weather/clear.txt','r')
+f = open(os.path.dirname(__file__)+'/clear.txt','r')
 clear = f.read()
 f.close()
-f = open('./Desktop/weather/clouds.txt','r')
+f = open(os.path.dirname(__file__)+'/clouds.txt','r')
 clouds = f.read()
 f.close()
-f = open('./Desktop/weather/drizzle.txt','r')
+f = open(os.path.dirname(__file__)+'/drizzle.txt','r')
 drizzle = f.read()
 f.close()
-f = open('./Desktop/weather/rain.txt','r')
+f = open(os.path.dirname(__file__)+'/rain.txt','r')
 rain = f.read()
 f.close()
-f = open('./Desktop/weather/default.txt','r')
+f = open(os.path.dirname(__file__)+'/default.txt','r')
 default = f.read()
 f.close()
 
