@@ -17,7 +17,7 @@ default = f.read()
 f.close()
 
 try: 
-    URL = "http://api.openweathermap.org/data/2.5/weather?zip=30318,us&units=metric&appid=d54cd01e8005bc84825fce37ff2d073a"
+    URL = "http://api.openweathermap.org/data/2.5/weather?zip=98109,us&units=metric&appid=d54cd01e8005bc84825fce37ff2d073a"
     req = urllib.request.Request(URL)
     response = urllib.request.urlopen(req).read()
     data = json.loads(response)
